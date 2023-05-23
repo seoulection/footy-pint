@@ -9,6 +9,20 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+## Running tests
+
+To run a test suite once:
+
+```elixir
+mix test "<relative_path_to_file>"
+```
+
+To run a test suite in watch mode:
+
+```elixir
+mix test.watch "<relative_path_to_file>"
+```
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
